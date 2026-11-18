@@ -16,7 +16,7 @@ export function Header() {
 
           <nav aria-label="Navegación principal" class="flex items-center space-x-4 sm:space-x-8 text-sm font-medium mt-2 sm:mt-0">
             <Link to="/" class="text-gray-600 hover:text-indigo-600 transition duration-200">Home</Link>
-            <Link to="/productos" class="text-gray-600 hover:text-indigo-600 transition duration-200">Productos</Link>
+            <Link to="/products" class="text-gray-600 hover:text-indigo-600 transition duration-200">Productos</Link>
             <Link to="/information" class="text-gray-600 hover:text-indigo-600 transition duration-200">Beneficios</Link>
             <Link to="/contacto" class="inline-flex items-center px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition duration-200 shadow-sm">
               Contacto
