@@ -1,6 +1,11 @@
+import { Header } from "../components/Header";
+import { Footer } from "../components/Footer";
+
 export function Information() {
   return (
-    <section id="beneficios" class="py-20 bg-white border-t border-b border-gray-200">
+    <>
+      <Header />
+      <section id="beneficios" class="py-20 bg-white border-t border-b border-gray-200">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center max-w-2xl mx-auto mb-14">
           <span class="text-xs font-bold uppercase tracking-widest text-indigo-600">Experiencia Vértice</span>
@@ -103,6 +108,8 @@ export function Information() {
           </div>
         </div>
       </div>
-    </section>
+      </section>
+      <Footer />
+    </>
   )
 }

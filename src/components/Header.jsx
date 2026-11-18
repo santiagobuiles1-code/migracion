@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 export function Header() {
   return (
     <header class="sticky top-0 z-50 bg-white bg-opacity-95 border-b border-gray-200 shadow-sm">
@@ -13,12 +15,12 @@ export function Header() {
           </a>
 
           <nav aria-label="Navegación principal" class="flex items-center space-x-4 sm:space-x-8 text-sm font-medium mt-2 sm:mt-0">
-            <a href="#home" class="text-gray-600 hover:text-indigo-600 transition duration-200">Home</a>
-            <a href="#productos" class="text-gray-600 hover:text-indigo-600 transition duration-200">Productos</a>
-            <a href="#beneficios" class="text-gray-600 hover:text-indigo-600 transition duration-200">Beneficios</a>
-            <a href="#contacto" class="inline-flex items-center px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition duration-200 shadow-sm">
+            <Link to="/" class="text-gray-600 hover:text-indigo-600 transition duration-200">Home</Link>
+            <Link to="/productos" class="text-gray-600 hover:text-indigo-600 transition duration-200">Productos</Link>
+            <Link to="/information" class="text-gray-600 hover:text-indigo-600 transition duration-200">Beneficios</Link>
+            <Link to="/contacto" class="inline-flex items-center px-4 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700 transition duration-200 shadow-sm">
               Contacto
-            </a>
+            </Link>
           </nav>
         </div>
       </div>
